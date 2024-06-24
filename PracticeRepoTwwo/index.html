@@ -16,10 +16,15 @@
 </head>
 
 <body>
+    <button onclick="myfunc()">Click Here</button>
     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, fugit?</h1>
 
     <script>
-        document.querySelector("h1").style.color = "blue";
+        function myfunc() {
+            document.querySelector("h1").style.color = "white";
+            document.querySelector("h1").style.fontSize = "50px";
+            document.querySelector("h1").style.fontFamily = "Lucida Grande";
+        }
     </script>
 </body>
 
